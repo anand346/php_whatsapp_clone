@@ -1,0 +1,42 @@
+#background-header{
+    width:100vw;
+    height:20vh;
+    background-color:#138d84;
+}
+#background-body{
+    width:100vw;
+    height:80vh;
+    background-color:#d9dcd7;
+}
+#chat-container{
+    position: fixed;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    width:70%;
+    height:90%;
+    background:white;
+    right:0px;
+    left:0px;
+    box-shadow:1px 3px 5px 2px grey;
+    border-radius:3px;
+    display:flex;
+    flex-direction:row;
+    overflow:hidden;
+}
+#chat-container #chat{
+    background-color:#f9fafa;
+    flex-grow: 1;
+}
+#chat-container #chat #chatPlaceholder{
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+app-sidebar{
+    flex-basis:30%;
+    display:block;
+    border-right:1px solid #d6cec8;
+}

@@ -1,0 +1,16 @@
+    top: 296.612px;
+    left: 286px;
+    display: block;
+    opacity: 0;
+
+
+        top: 356.4375px;
+    left: 167.125px;
+    display: block;
+
+
+    $(document).keyup(function(e){
+          if(e.keyCode == 9){ 
+            picker.pickerVisible ? picker.hidePicker() : picker.showPicker(trigger);  
+          }
+        });
